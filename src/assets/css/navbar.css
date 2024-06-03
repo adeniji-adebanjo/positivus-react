@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav a {
+  margin: 0 20px;
+  text-decoration: none;
+}
+header button {
+  background: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+/* @media all and (min-width: 969px) {
+  header nav {
+    display: none;
+  }
+} */
